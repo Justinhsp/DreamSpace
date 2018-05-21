@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    lintOptions {
+        checkReleaseBuilds false
+    }
+    compileSdkVersion 27
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.hycf.example.hsp"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':library:photoPicker')//图片选择
+    compile project(':library:irecyclerview')//万能适配器和recyclerview
+    compile project(':library:oneKeyShareSDK')//分享
+    compile project(':library:jcvideoplayer')//视频播放
+    compile project(':library:selectordialog')//常用提示框
+    //图片选择器
+    compile 'com.github.lovetuzitong:MultiImageSelector:1.2'
+    compile 'com.kuyue:utils:1.0.8'
+}

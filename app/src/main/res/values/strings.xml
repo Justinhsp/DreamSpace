@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">梦空间</string>
+
+    <!-- 共享过度动画 -->
+    <string name="transition_photos">transition_animation_news_photos</string>
+
+    <!--新闻-->
+    <string name="news">热点新闻</string>
+    <string name="photo_collections">图集：%1$s</string>
+    <string name="web_view">WebView打开</string>
+    <string name="browser">浏览器打开</string>
+    <string name="share">分享</string>
+    <string name="share_contents">来自「MateralPeng」的分享：%1$s %2$s</string>
+    <string name="news_from">%1$s %2$s</string>
+    <string name="photo_news">图片新闻</string>
+    <string name="photo_detail_title">%1$d/%2$d　%3$s</string>
+
+    <!-- 图片 -->
+    <string name="girl_title">靓妹纸</string>
+    <string name="photo">图片</string>
+    <string name="girl">妹纸</string>
+
+    <!--视频-->
+    <string name="video_play_times">%1$s次播放</string>
+
+    <!-- 新闻频道 -->
+    <string name="channel_explain">点击可增删/长按并拖拽可排序</string>
+    <string name="my_channel">我的频道</string>
+    <string name="more_channel">更多频道</string>
+    <string name="channel_manage">频道管理</string>
+
+
+
+
+    <!--动态-->
+    <string name="dynamic_state">动态</string>
+    <string name="friend_zone_title">好友动态</string>
+    <string name="friend_zone_toggle">主题装扮</string>
+    <string name="friend_zone_about">关于作者</string>
+    <string name="wechat_circle">朋友圈</string>
+    <string name="circle_zone_not_read_news">%1$s条新消息</string>
+    <string name="zone_name">采蘑菇的小菇凉</string>
+    <string name="expand">全文</string>
+    <string name="shink">收起</string>
+    <string name="zone_img_position">circle_img_position</string>
+    <string name="zone_publish_title">发表说说</string>
+    <string name="circle_publish_empty">发表内容不能为空！</string>
+    <string name="auther_name">十岁天才少年</string>
+     <string name="toast_expect">敬请期待!</string>
+     <!--WeChat-->
+    <string name="glide_plus_icon_string">android.resource://</string>
+    <string name="post_delete_tv_d">拖动到此处删除</string>
+    <string name="post_delete_tv_s"> 松手即可删除</string>
+
+</resources>
